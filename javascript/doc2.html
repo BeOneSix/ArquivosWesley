@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="doc2.css">
+  <script src="doc2.js"></script>
+  <title>Prática 04 - Exercício 01</title>
+</head>
+
+<body>
+
+  <form action="">
+    <h1>Cadastro de Funcionário</h1>
+    <table>
+      <tr>
+        <td>Nome:</td>
+        <td><input type="text" id="nome" class="entrada"></td>
+      </tr>
+      <tr>
+        <td>E-mail:</td>
+        <td><input type="text" id="email" class="entrada"></td>
+      </tr>
+      <tr>
+        <td>Data de Nascimento: </td>
+        <td><input type="text" id="datanasc" class="entrada" onkeypress="return mascData(this, event);"></td>
+      </tr>
+      <tr>
+        <td>Escolaridade</td>
+        <td>
+          <select id="escolaridade" class="entrada">
+            <option value="" selected disabled></option>
+            <option value="1">Ensino fundamental</option>
+            <option value="2">Ensino médio</option>
+            <option value="3">Graduação</option>
+            <option value="4">Pós-graduação</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Sexo</td>
+        <td>
+          <input name="sexo" type="radio" id="sexofeminino" class="entrada">
+          <label for="sexofeminino"> Feminino</label>
+          <input name="sexo" type="radio" id="sexomasculino" class="entrada">
+          <label for="sexomasculino"> Masculino</label>
+        </td>
+      </tr>
+      <tr>
+        <td><input type="reset" class="botao" value="Limpar" name="limpa"></td>
+        <td><input onclick="verificarFormulario();" type="submit" class="botao" id="cadastro" value="Cadastrar" name="cadastro"></td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+html,
+body {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 95%;
+}
+
+form {
+  margin: 8rem auto 1rem auto;
+  width: 23rem;
+  background: linear-gradient(AliceBlue, #E8E8E8);
+  color: #8e9091;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+td {
+  padding: .2rem;
+}
+
+#resp {
+  width: 22rem;
+  margin: 1rem auto 2rem auto;
+  color: red;
+  padding: 1rem;
+}
+
+.botao {
+  background-color: rgb(196, 200, 265);
+  color: blue;
+  padding: 0.4rem;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.entrada {
+  border-radius: .5rem;
+  border: 0;
+}
+
+#nome,
+#email,
+#datanasc,
+#escolaridade {
+  width: 12rem;
+  height: 1.3rem;
+}
+
+option {
+  background-color: #e7e9ec;
+  color: #8e9091;
+}
+
+#cadastro {
+  width: 12rem;
+}

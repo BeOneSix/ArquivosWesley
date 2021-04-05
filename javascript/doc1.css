@@ -1,0 +1,42 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+html, body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#soma, #valor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.bloco {
+    display: flex;
+    margin: 15px auto;
+    justify-content: space-between;
+    width: 350px;
+    height: 25px;
+    background-color: #ffbb00;
+    padding: 1.3rem;
+}
+button {
+    display: flex;
+    margin: 15px auto;
+}
+p {
+    margin: 0 auto;
+}
+#valor {
+    background-color: green;
+    color: aliceblue;
+    padding: 1.3rem;
+    width: 350px;
+    height: 25px;
+}

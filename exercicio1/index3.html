@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+class pessoaFisica {
+
+#nome; //Propriedade privada.
+#cpf; //Propriedade privada.
+constructor(nome, cpf) {
+this.#nome = nome;
+this.#cpf = cpf;
+}
+set setNome(base) {this.#nome = nome;}
+get getNome() {return this.#nome;}
+set setCPF(altura) {this.#cpf = cpf;}
+get getCPF() {return this.#cpf;}
+get dados() {return this.#nome + '<br>' + this.#cpf;}
+}
+
+
+
+
+var nome = new pessoaFisica(name = prompt("insira o nome: "));
+name.setNome = nome;
+
+
+document.write("Dados: " + nome.getNome);
+
+
+    </script>
+</body>
+</html>

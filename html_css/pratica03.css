@@ -1,0 +1,49 @@
+html, body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    margin: 5rem auto;
+    padding: 0.5rem;
+}
+li {
+    color: #f5c1fa;
+}
+.lista, .link {
+    align-content: center;
+    background-color: orangered;
+    width: 300px;
+    height: 200px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #0004ff;
+    height: 4rem;
+    width: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.form {
+    align-content: center;
+    background-color: orangered;
+    width: 450px;
+    height: 150px;
+    padding: 1.2rem;
+    line-height: 2rem;
+}
+.name {
+    border: none;
+    height: 35px;
+    padding: 0.7rem;
+}
+label {
+    padding: 0.2rem;
+}
+.botao {
+    background-color: lightsalmon;
+    border: none;
+    width: 80px;
+    height: 40px;
+}
